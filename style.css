@@ -1,5 +1,7 @@
 .body {
     background-color: rgb(255, 251, 238);
+    font-family: "Lexend", sans-serif;
+    font-weight: 350;
 }
 
 .main-div {
@@ -46,6 +48,7 @@
 }
 
 .projects-text {
+    display:none;
     width: 325px;
     color: rgb(82, 82, 82);
     font-size: 20px;

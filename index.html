@@ -4,6 +4,10 @@
     <head>
         <title>Alex Colvin</title>
         <link rel="stylesheet" href="style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
     </head>
 
     <body class="body">
@@ -11,12 +15,12 @@
             <span class="name-title">Alex Colvin</span>
             <img class="robot-gif" src="robot-8-bit.gif">
             <div class="links-box">
-                <p class="links-text">About</p>
-                <p class="links-text">Projects</p>
+                <p class="links-text" onclick="showAbout()">About</p>
+                <p class="links-text" onclick="showProjects()">Projects</p>
                 <p class="links-text"><a href="https://github.com/AJDColvin" style="text-decoration: none; color: inherit;"" target="_blank">Github</a></p>
             </div>
-            <span class="about-text">4th Year Robotic Engineering Student at the University of Bath. Check out my projects here.  </span>
-            <span class="projects-text">&#8226 BreezeRead</span>
+            <span id="about" class="about-text">4th Year Robotic Engineering Student at the University of Bath. Check out my projects here.  </span>
+            <span id="projects" class="projects-text"><a href=https://ajdcolvin.github.io/BreezeRead/ style="text-decoration: none; color: inherit;" target="_blank">&#8226 BreezeRead</a></span>
         </div>
     </body>
 
