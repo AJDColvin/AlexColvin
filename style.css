@@ -18,9 +18,14 @@
 }
 
 .robot-gif{
-    height: 130px;
-    margin-top: -30px;
-    z-index: -100;
+    height: 80px;
+    cursor: pointer;
+}
+
+.robot-click{
+    height: 80px;
+    cursor: pointer;
+    display: none;
 }
 
 .links-box{
