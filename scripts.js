@@ -9,6 +9,7 @@ function showProjects() {
 
 }
 
+// --------- Robot Gif ----------
 function surpriseBot() {
     document.getElementById("robot-gif").style.display = "none";
     document.getElementById("robot-surprise").style.display = "block";
